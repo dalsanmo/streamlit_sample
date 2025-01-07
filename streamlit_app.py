@@ -8,7 +8,7 @@ from fastai.vision.all import *
 import gdown
 
 # Google Drive에서 모델 다운로드
-file_id = '1p0BoTEv7se8B3ycfdEbthpBqY_OYRKHY?usp=sharing'  # Colab에서 생성한 모델의 파일 ID 입력
+file_id = '1p0BoTEv7se8B3ycfdEbthpBqY_OYRKHY'  # Colab에서 생성한 모델의 파일 ID 입력
 url = f'https://drive.google.com/uc?id={file_id}'
 output = 'cat_dog_model.pkl'
 gdown.download(url, output, quiet=False)
